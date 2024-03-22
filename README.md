@@ -109,3 +109,51 @@ Conforme comando acima, a consulta pesquisa todos os documentos no índice e fil
 <img src="Arquivos/Imagem10.JPG">Imagem10
 
 
+### Armazenamento de Conhecimento
+
+Ao importarmos os dados também foi criado o Armazenamento de Conhecimento.
+Na __"Conta de Armazenamento"__, que criamos acima, selecionamos __"Container"__ e depois o item __"armazenamento-de-conhecimento"__. Na __Imagem11__ abaixo podemos ver o container aberto.
+
+<img src="Arquivos/Imagem11.JPG">Imagem11
+
+
+Dentro do Armazenamento de Conhecimento selecionamos qualquer um dos itens e clicamos em __"objectprojection.json"__. Selecione __"Editar"__ para ver o JSON produzido. Um exemplo de resultado é exibido na __Imagem12__ abaixo:
+
+<img src="Arquivos/Imagem12.JPG">Imagem12
+
+
+Voltando para __"Conta de Armazenamento"__, agora selecionaremos o item __"coffee-skillset-image-projection"__. Selecione qualquer um dos arquivos __".jpg"__ . Selecione __"Editar"__ para ver a imagem armazenada no documento. Observe como todas as imagens dos documentos são armazenadas desta forma conforme __Imagem13__ abaixo. Por questões de direitos autorais resolvi não postar a imagem que contem a foto, mas seguindo o passo a passo da documentação você chegará aos mesmos resultados.
+
+<img src="Arquivos/Imagem13.JPG">Imagem13
+
+
+Por último voltaremos para __"Navegador de Armazenamento"__ e clicamos em __"Tabelas"__. Dentro de __"Tabelas"__ selecionamos a tabela __"coffeeSkillsetKeyPhrases"__. Observe as __"key phrases"__ que o armazenamento de conhecimento conseguiu capturar do conteúdo das avaliações. Muitos dos campos são chaves, portanto você pode vincular as tabelas como um banco de dados relacional. O último campo mostra as __"key phrases"__ que foram extraídas pelo conjunto de habilidades. A __Imagem14__ abaixo mostra a tabela __"coffeeSkillsetKeyPhrases"__ selecionada.
+
+<img src="Arquivos/Imagem14.JPG">Imagem14
+
+
+## Insights
+
+O serviço de AI do __Microsoft Azure__ para análise e pesquisa cognitiva pode ser muito útil para empresas identificarem as experiências. Com esta ferramenta podemos extrair dados de uma fonte de dados, enriquecer os dados com habilidades treinadas de __IA__, entre outros, com isso gerando __Insights__ que podem ser utilizados para tomadas de decisões como melhorias nos produtos ou serviços e mudanças em campanhas de Marketing.
+
+## Conclusão
+
+Este foi o Laboratório mais desafiador para mim até agora, pois tive que lidar com várias configurações e vários recursos que estão conectados, mas fiquei muito feliz com o resultado deste Laboratório. Creio que estas ferramentas abordadas já estão sendo utilizadas e serão ainda mais utilizadas no futuro para optenção de dados que podem ajudar na tomada de decisão das empresas.
+
+## Referências
+
+- [Microsoft Azure](https://azure.microsoft.com)
+
+- [AI Services-Language](https://azure.microsoft.com/pt-br/products/ai-services/ai-language/)
+
+## Documentação
+
+-[Microsoft Azure Machine Learn - Azure AI Search](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html)
+
+## Ferramentas e Serviços
+
+- ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+
+- ![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+- ![Azure](https://img.shields.io/badge/Azure-blue?style=for-the-badge&logo=microsoft%20azure&logoColor=blue&labelColor=FFFFFF&link=https%3A%2F%2Fimages.app.goo.gl%2FK7PN1jYJd57x4q7A8)
